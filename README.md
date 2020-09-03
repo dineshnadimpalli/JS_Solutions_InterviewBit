@@ -2,7 +2,6 @@
 
 This repo consists of the <code>Javascript solutions</code> to the Interview Bit questions in programming section
 
-<br>
 
 ### Topics Covered
 
