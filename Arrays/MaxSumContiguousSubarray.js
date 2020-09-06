@@ -1,5 +1,7 @@
 // Problem link https://www.interviewbit.com/problems/max-sum-contiguous-subarray/
 
+const { bubbleSort, insertionSort } = require("../utils/sorting");
+
 // Note: The solution includes both maxSum and maxSumArr
 
 class Solution {
@@ -33,3 +35,5 @@ class Solution {
 let res = new Solution();
 let A = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
 console.log(res.maxSubArray(A).maxSum);
+
+console.log(insertionSort(A))
