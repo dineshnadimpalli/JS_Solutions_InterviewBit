@@ -16,3 +16,5 @@ This repo consists of the <code>Javascript solutions</code> to the Interview Bit
 - <a href='https://github.com/dineshnadimpalli/JS_Solutions_InterviewBit/tree/master/Math'>Math</a>
 - <a href='https://github.com/dineshnadimpalli/JS_Solutions_InterviewBit/tree/master/Binary%20Search'>Binary Search</a>
 - <a href='https://github.com/dineshnadimpalli/JS_Solutions_InterviewBit/tree/master/Strings'>Strings</a>
+- <a href='https://github.com/dineshnadimpalli/JS_Solutions_InterviewBit/tree/master/Bit%20Manipulation'>Bit Manipulation</a>
+

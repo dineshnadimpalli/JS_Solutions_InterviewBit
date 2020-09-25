@@ -19,11 +19,11 @@ class Solution {
     return stack.reverse().join(" ");
   };
 
-  // another simple approach 
+  // another simple approach
 
-//   solve = function (A) {
-//     return A.replace(/\s+/g, " ").trim().split(" ").reverse().join(" ");
-//   };
+  // solve = function (A) {
+  //   return A.replace(/\s+/g, " ").trim().split(" ").reverse().join(" ");
+  // };
 }
 
 // Input 1:
