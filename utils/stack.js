@@ -14,35 +14,35 @@ class Stack {
 
     push(val){
         let newNode = new Node(val)
-        if(!this.first){
+        if(this.isEmpty()){
             this.first = newNode
             this.last = newNode
         }else {
-            let tmp = this.first
-            this.first = newNode
-            this.first.next = tmp
+            let tmp = this.last
+            this.last = newNode
+            this.last.next = tmp
         }
         return ++this.size
     }
 
     pop(){
-        if(!this.first) return null
+        if(this.isEmpty()) return null
         if(this.first === this.last){
-            this.last = null
+            this.first = null
         }
-        let tmp = this.first
-        this.first = this.first.next
+        let tmp = this.last
+        this.last = this.last.next
         this.size--
         return tmp.val
     }
 
     peek(){
-        if(!this.first) return null
-        return this.first.val
+        if(this.isEmpty()) return null
+        return this.last.val
     }
 
     traverse(){
-        let curr = this.first
+        let curr = this.last
         let res = []
         while(curr){
             res.push(curr.val)
