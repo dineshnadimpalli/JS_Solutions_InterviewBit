@@ -27,10 +27,10 @@ class Stack {
 
     pop(){
         if(!this.first) return null
-        let tmp = this.first
         if(this.first === this.last){
             this.last = null
         }
+        let tmp = this.first
         this.first = this.first.next
         this.size--
         return tmp.val
@@ -49,6 +49,10 @@ class Stack {
             curr = curr.next
         }
         return res.reverse()
+    }
+
+    isEmpty(){
+        return this.size > 0 ? false : true
     }
 }
 
