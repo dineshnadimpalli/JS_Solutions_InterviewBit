@@ -2,12 +2,6 @@
 
 const { SinglyLinkedList } = require("../utils/singlyLinkedList");
 
-// Definition for singly-linked list.
-function Node(data) {
-  this.data = data;
-  this.next = null;
-}
-
 class Solution extends SinglyLinkedList {
   insertionSortList = function (A) {
     let sorted = null;
